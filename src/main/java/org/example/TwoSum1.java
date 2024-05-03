@@ -4,9 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class TwoSum1 {
-    //Brute force
-    public int[] twoSum(int[] nums, int target) {
-        // Arrays.sort(nums);
+    public int[] twoSumBruteForce(int[] nums, int target) {
         for (int i = 0; i < nums.length - 1; i++) {
             for (int j = i + 1; j < nums.length; j++) {
                 if (nums[i] + nums[j] == target) {
@@ -20,12 +18,10 @@ public class TwoSum1 {
     public int[] twoSumHashTwoEntry(int[] nums, int target) {
         Map<Integer, Integer> numMap = new HashMap<>();
         int n = nums.length;
-
         // Build the hash table
         for (int i = 0; i < n; i++) {
             numMap.put(nums[i], i);
         }
-
         // Find the complement
         for (int i = 0; i < n; i++) {
             int complement = target - nums[i];
@@ -33,22 +29,18 @@ public class TwoSum1 {
                 return new int[]{i, numMap.get(complement)};
             }
         }
-
         return new int[]{}; // No solution found
     }
 
     public int[] twoSumHashOneEntry(int[] nums, int target) {
         Map<Integer, Integer> numMap = new HashMap<>();
-        int n = nums.length;
-
-        for (int i = 0; i < n; i++) {
-            int complement = target - nums[i];
-            if (numMap.containsKey(complement)) {
-                return new int[]{numMap.get(complement), i};
+        for (int i = 0; i < nums.length; i++) {
+            int comp = target - nums[i];
+            if (numMap.containsKey(comp)) {
+                return new int[] { numMap.get(comp), i };
             }
             numMap.put(nums[i], i);
         }
-
-        return new int[]{}; // No solution found
+        return new int[] {};
     }
 }
