@@ -1,0 +1,13 @@
+
+
+java:S2095G"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(õ×İ´ıÿÿÿÿ8ıÈíõ1J$93d8d70a-44ab-47df-b1b1-f5a1236c701c
+r	java:S106#"+Replace this use of System.out by a logger.(î÷©çÿÿÿÿÿ8³Ÿíõ1J$0f1399de-b5f6-48a5-9e79-20f7c4c399e4
+‰
+java:S1075("ARefactor your code to get this URI from a customizable parameter.(À½Ÿşúÿÿÿÿ8øÍ½íõ1J$dd9e475a-c094-4465-8634-f9788be47cd3
+m	java:S1063"+Replace this use of System.out by a logger.(¸×ü8”³Ÿíõ1J$e67c685b-e1b5-46d3-a22e-13868738a545
+m	java:S106>"+Replace this use of System.out by a logger.(šîÜƒ8›³Ÿíõ1J$394d30b4-2886-42ee-a095-6cfcde5b1e0e
+r	java:S106B"+Replace this use of System.out by a logger.(Œôƒ¢ıÿÿÿÿ8¤³Ÿíõ1J$cf2ccf75-f1d2-4ea2-8a61-cc8d7dd98045
+l	java:S106M"+Replace this use of System.out by a logger.(•Ğò8¼¿¤íõ1J$1cb00b3d-54b7-49a9-82dd-a11be4ff319a
+„
+java:S1075X"ARefactor your code to get this URI from a customizable parameter.(÷Ç8ãÊíõ1J$b63990f7-f5b0-4434-8140-22f09f5d8b6d
+r	java:S106_"+Replace this use of System.out by a logger.(ª””×ÿÿÿÿÿ8Ò¿¤íõ1J$38189fec-4aa8-403a-a029-71dae22d7dc3
